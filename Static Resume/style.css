@@ -1,0 +1,91 @@
+body{
+    background-color: rgba(255, 250, 251, 0.932);
+    font-family: Impact;
+    margin: 0;
+    padding: 150px;
+}
+.resume-container{
+    display: flex;
+    background-color: rgb(128, 128, 90);
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(245, 240, 240, 0.1);
+}
+/* left-section styling */
+.left-section{
+    background-color: rgba(44, 10, 10, 0.836);
+    color: rgb(248, 243, 243);
+    padding: 20px;
+    width: 35%;
+    text-align: center;
+    border-right: 5px solid #f5f0f0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+    font-size: 18px;
+    padding: 2%;
+    margin: 20px 0 10px;
+    color: rgb(250, 247, 247);
+    border-radius: 10px;
+    box-shadow: 0 0 15px #e7dddd;
+    margin: top 5%;
+    margin-bottom: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button{
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    box-shadow: 0 0 15px black;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 15px;
+}
+button:hover{
+    background-color: #4b3a3a;
+}
+
+.profile-picture{
+    width: 250px;
+    height: 250px;
+    margin-top: 10%;
+    border-radius: 50%;
+    border: 5px solid #f7f2f2;
+    margin-bottom: 20px;
+    background-image: cover;
+}
+h1{
+    font-size: 25px;
+    margin: 10px 0;
+    margin-bottom: 30px;
+    text-align: center;
+    
+}
+
+#Information{
+    text-align: center;
+    text-decoration: solid;
+    box-shadow:0 0 15px #3d0a0e;
+}
+.right-section{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#personal-info{
+    margin-left: 80px;
+    color: #3d0a0e;
+text-decoration: solid wavy;
+font-size: large;
+
+}
+button{
+    font-family: Arial,  sans-serif;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgb(85, 21, 21);
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: #6b282e;
+    margin-left: 240px;
+    padding-left: 5px;
+}
